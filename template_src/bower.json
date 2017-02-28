@@ -1,0 +1,19 @@
+{
+  "name": "cordova-allview-app-template",
+  "description": "Cordova template for AllView mobile apps.",
+  "authors": [
+    "Neo Anderson"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "cordova",
+    "template",
+    "app"
+  ],
+  "homepage": "http://allview.xin",
+  "dependencies": {
+    "dcloud-mui": "^3.4.0",
+    "echarts": "^3.4.0",
+    "jquery": "^3.1.1"
+  }
+}
