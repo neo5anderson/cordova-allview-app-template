@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "keystore/allview.jks",
+            "storePassword": "allview",
+            "alias": "AllView",
+            "password" : "allview",
+            "keystoreType": "JKS"
+        },
+        "release": {
+            "keystore": "keystore/allview.jks",
+            "storePassword": "allview",
+            "alias": "AllView",
+            "password" : "allview",
+            "keystoreType": "JKS"
+        }
+    }
+}

@@ -1,5 +1,11 @@
 var gulp = require('gulp');
+var shell = require('gulp-shell');
 var bower = require('gulp-bower');
+
+gulp.task('gradle-patch', shell.task([
+    'patch -p0 < patch/android-gradle.patch',
+    'patch -p0 < patch/cordovalib-gradle.patch'
+]));
 
 gulp.task('bower', function () {
     return bower({

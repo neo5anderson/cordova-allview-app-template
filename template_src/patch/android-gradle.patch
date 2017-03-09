@@ -1,0 +1,26 @@
+--- platforms/android/build.gradle	2017-03-09 11:24:21.832627126 +0800
++++ platforms/android/build.gradle.patch	2017-03-09 11:25:05.716335837 +0800
+@@ -21,8 +21,9 @@
+ 
+ buildscript {
+     repositories {
+-        mavenCentral()
+-        jcenter()
++        // mavenCentral()
++        // jcenter()
++        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+     }
+ 
+     // Switch the Android Gradle plugin version requirement depending on the
+@@ -37,8 +38,9 @@
+ // Allow plugins to declare Maven dependencies via build-extras.gradle.
+ allprojects {
+     repositories {
+-        mavenCentral();
+-        jcenter()
++        // mavenCentral();
++        // jcenter()
++        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+     }
+ }
+ 

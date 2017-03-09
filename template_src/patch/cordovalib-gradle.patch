@@ -1,0 +1,14 @@
+--- platforms/android/CordovaLib/build.gradle	2017-03-09 11:25:17.499768532 +0800
++++ platforms/android/CordovaLib/build.gradle.patch	2017-03-09 11:25:37.473268918 +0800
+@@ -20,8 +20,9 @@
+ 
+ buildscript {
+     repositories {
+-        mavenCentral()
+-        jcenter();
++        // mavenCentral()
++        // jcenter();
++        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+     }
+ 
+     dependencies {
