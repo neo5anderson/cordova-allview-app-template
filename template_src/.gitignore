@@ -1,0 +1,9 @@
+# third-party
+bower/
+node_modules/
+
+# local files
+build/
+platforms/
+plugins/
+
